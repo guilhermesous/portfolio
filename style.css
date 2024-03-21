@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background: linear-gradient(to right, #121212, black);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*HOME*/
+#div1{
+    display: flex;
+    margin: 8% 5% 0 8%
+}
+#div1_1{
+    margin-top: 50px;
+    z-index: 2;
+    position: absolute;
+    text-align: left;
+}
+
+#div1 #div1_2 img{
+    position: absolute;
+    border-radius: 10px;
+    left: 70%;
+}
+
+#div1 #div1_2 #img1{
+    z-index: 1;
+}
+
+#div1 #div1_2 #img2{
+    left: 55%;
+}
+
+#div1_1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.div1_3{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.iconcontato{
+    width: 20px;
+    margin: 0px 5px;
+}
+
+/*Tecnologias*/
+#div2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#divboxmaior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divbox{
+    background-color: #222222;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.imgbox{
+    width: 80px;
+    transition: 0.5s;
+}
+
+#divboxmaior:hover > :not(:hover){
+    transition: 1s;
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+
+.divbox:hover{
+    .imgbox{
+        width: 100px;
+    }
+}
+
+/*Exper. Profissionais*/
+#div3{
+    text-align: center;
+}
+
+#div3_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divjob{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#divjob1{
+    border: #D7272F 2px solid;
+}
+
+#divjob2{
+    border: #002a6f 2px solid;
+}
+
+.imgjob{
+    width: 200px;
+}
+
+#div3_1:hover > :not(:hover){
+    transition: 1s;
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+
+/*Projetos*/
+#div4{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#div4_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divproject{
+    width: 400px;
+    margin: 10px 20px;
+}
+
+.imgproject{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#div4_1:hover > :not(:hover){
+    transition: 0.5s;
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+
+.imgproject:hover{
+    transform: scale(1.1);
+}
