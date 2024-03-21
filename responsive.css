@@ -1,0 +1,105 @@
+@media (min-width: 768px) and (max-width: 1023px){
+    /*Página Inicial*/
+
+    #div1{
+        margin: 120px 0% 0 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #div1_1{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    #div1_2{
+        margin-bottom: 10px;
+    }
+
+    #div1_1 h2{
+        margin-bottom: 7px;
+    }
+
+    .div1_3{
+        justify-content: center;
+    }
+
+    #div1 #div1_2 #img1{
+        position: relative;
+        left: 35%;
+    }
+
+    #div1 #div1_2 #img2{
+        position: absolute;
+        left: 3%;
+    }
+
+    /*Tecnologias e Projetos*/
+    #div2, #div4{
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 767px){
+    /*Página Inicial*/
+
+    #div1{
+        margin: 120px 0% 0 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #div1_1{
+        width: 90%;
+        font-size: 12px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .iconcontato, #iconwpp{
+        width: 12px;
+    }
+
+    #iconchapeu{
+        width: 15px;
+        height: 15px;
+    }
+
+    #div1_2{
+        margin-bottom: 10px;
+    }
+
+    #div1_1 h2{
+        margin-bottom: 7px;
+    }
+
+    .div1_3{
+        justify-content: center;
+    }
+
+    #div1 #div1_2 #img1{
+        width: 50%;
+        position: relative;
+        left: 35%;
+    }
+
+    #div1 #div1_2 #img2{
+        width: 70%;
+        position: absolute;
+        left: 3%;
+    }
+
+    /*Tecnologias e Projetos*/
+    #div2, #div4{
+        margin-top: 120px;
+    }
+
+    #div2, #div3, #div4{
+        font-size: 12px;
+    }
+}

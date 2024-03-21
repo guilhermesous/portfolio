@@ -12,6 +12,7 @@ body{
     margin: 8% 5% 0 8%
 }
 #div1_1{
+    width: 800px;
     margin-top: 50px;
     z-index: 2;
     position: absolute;
@@ -89,6 +90,7 @@ body{
 /*Exper. Profissionais*/
 #div3{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #div3_1{
