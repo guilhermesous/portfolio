@@ -99,7 +99,7 @@ header label{
     header .navbar{
         position: absolute;
         top: 100%; left: 0; right: 0;
-        backdrop-filter: blur(25px);
+        background-color: #121212;
         display: none;
     }
 

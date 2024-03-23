@@ -15,6 +15,18 @@ body{
 
 .p_exemplo{
     font-size: 20px;
+    width: 30%;
+}
+
+.divtexto{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.p_exemplo_meio{
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 .gifexemplo{
@@ -28,4 +40,84 @@ body{
     border-radius: 10px;
     border: 2px solid black;
     margin: 0 10px;
+}
+
+#fotofinal{
+    filter: grayscale(100%);
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    #div6{
+        background-color: #161927;
+        display: flex;
+        align-items: end;
+        padding-top: 80px;
+    }
+
+    .p_exemplo, .divtexto{
+        text-align: center;
+        width: 80%;
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #divtexto3{
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .gifexemplo{
+        width: 600px;
+    }
+
+    .gifexemplomobile{
+        height: 400px;
+    }
+
+    #fotofinal{
+        filter: grayscale(100%);
+    }
+}
+
+@media (max-width: 767px){
+    #div6{
+        background-color: #161927;
+        display: flex;
+        align-items: end;
+        padding-top: 90px;
+    }
+
+    .divexemplo{
+        padding-bottom: 150px;
+    }
+
+    .p_exemplo, .divtexto{
+        text-align: center;
+        font-size: 12px;
+        width: 95%;
+        margin: auto auto 20px auto;
+    }
+
+    #divtexto3{
+        margin-top: 20px;
+    }
+
+    .gifexemplo{
+        width: 90%;
+    }
+
+    .gifexemplomobile{
+        width: 30%;
+        height: auto;
+        margin: 0 3px;
+    }
+
+    #divgifsmobile{
+        text-align: center;
+    }
+
+    #fotofinal{
+        width: 80%;
+    }
 }
