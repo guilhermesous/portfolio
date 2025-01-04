@@ -119,8 +119,12 @@ body{
     border: #002a6f 2px solid;
 }
 
+#divjob4{
+    border: #62C7EE 2px solid;
+}
+
 .imgjob{
-    width: 200px;
+    width: 220px;
 }
 
 #div3_1:hover > :not(:hover){
